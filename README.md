@@ -1,81 +1,29 @@
-# μniverse [![GoDoc](https://godoc.org/github.com/unixpickle/muniverse?status.svg)](https://godoc.org/github.com/unixpickle/muniverse)
+# Muniverse
 
-μniverse is my attempt to wrap a bunch of HTML5 games in a single API. This is similar to [openai/universe](https://github.com/openai/universe), except that it avoids Flash and VNC. For more on this, see [Advantages over Universe](#advantages-over-universe)
+本仓库是「Muniverse」的安卓版本获取入口，附使用资料索引。
 
-This is a work in progress. See [Roadmap](#roadmap) for more details.
+## 安装文件资源（夸克网盘）
 
-# Getting Started
+> **Muniverse 安装文件资源（夸克网盘）**：[https://pan.quark.cn/s/6c67a486f856](https://pan.quark.cn/s/6c67a486f856)
 
-µniverse depends on a few software projects. It requires fairly new versions, so package managers like `apt-get` may not be suitable. Here are the packages and links to downloads:
+## 官方项目
 
- * [Docker >= 17.03](https://docs.docker.com/engine/installation/#time-based-release-schedule)
- * [Go >= 1.8](https://golang.org/dl/)
+- 上游项目：[unixpickle/muniverse](https://github.com/unixpickle/muniverse)
 
-Installing Go is particularly involved, as you will want to create a `GOPATH`. See [here](https://golang.org/doc/code.html#GOPATH) for details on that.
+## 更多资料
 
-Once you have Go and Docker, you can download µniverse in one easy step:
+- [下载与安装教程](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/Muniverse%E5%AE%98%E7%BD%91%E7%89%88%E6%9C%AC/%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.md)
+- [Lumy积分怎么获得和使用](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/Muniverse%E5%AE%98%E7%BD%91%E7%89%88%E6%9C%AC/Lumy%E7%A7%AF%E5%88%86%E6%80%8E%E4%B9%88%E8%8E%B7%E5%BE%97%E5%92%8C%E4%BD%BF%E7%94%A8.md)
+- [一周能攒多少票怎么算](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/Muniverse%E5%AE%98%E7%BD%91%E7%89%88%E6%9C%AC/%E4%B8%80%E5%91%A8%E8%83%BD%E6%94%92%E5%A4%9A%E5%B0%91%E7%A5%A8%E6%80%8E%E4%B9%88%E7%AE%97.md)
+- [充值与周边购买](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/Muniverse%E5%AE%98%E7%BD%91%E7%89%88%E6%9C%AC/%E5%85%85%E5%80%BC%E4%B8%8E%E5%91%A8%E8%BE%B9%E8%B4%AD%E4%B9%B0.md)
+- [同名应用与官方渠道怎么认](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/Muniverse%E5%AE%98%E7%BD%91%E7%89%88%E6%9C%AC/%E5%90%8C%E5%90%8D%E5%BA%94%E7%94%A8%E4%B8%8E%E5%AE%98%E6%96%B9%E6%B8%A0%E9%81%93%E6%80%8E%E4%B9%88%E8%AE%A4.md)
+- [常见问题与排查](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/Muniverse%E5%AE%98%E7%BD%91%E7%89%88%E6%9C%AC/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E4%B8%8E%E6%8E%92%E6%9F%A5.md)
+- [怎么给偶像投票](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/Muniverse%E5%AE%98%E7%BD%91%E7%89%88%E6%9C%AC/%E6%80%8E%E4%B9%88%E7%BB%99%E5%81%B6%E5%83%8F%E6%8A%95%E7%A5%A8.md)
+- [注册登录与账号设置](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/Muniverse%E5%AE%98%E7%BD%91%E7%89%88%E6%9C%AC/%E6%B3%A8%E5%86%8C%E7%99%BB%E5%BD%95%E4%B8%8E%E8%B4%A6%E5%8F%B7%E8%AE%BE%E7%BD%AE.md)
+- [直播与独家综艺怎么看](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/Muniverse%E5%AE%98%E7%BD%91%E7%89%88%E6%9C%AC/%E7%9B%B4%E6%92%AD%E4%B8%8E%E7%8B%AC%E5%AE%B6%E7%BB%BC%E8%89%BA%E6%80%8E%E4%B9%88%E7%9C%8B.md)
+- [网页版和电脑上怎么用](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/Muniverse%E5%AE%98%E7%BD%91%E7%89%88%E6%9C%AC/%E7%BD%91%E9%A1%B5%E7%89%88%E5%92%8C%E7%94%B5%E8%84%91%E4%B8%8A%E6%80%8E%E4%B9%88%E7%94%A8.md)
+- [全部软件目录](https://github.com/alipymanbu/Android/blob/master/%E5%85%A8%E9%83%A8%E8%BD%AF%E4%BB%B6%E7%9B%AE%E5%BD%95.md)
 
-```
-go get github.com/unixpickle/muniverse
-```
+---
 
-The first time you use µniverse, it will pull a somewhat large Docker container. I recommend you do this manually before you use µniverse:
-
-```
-docker pull unixpickle/muniverse:0.115.0
-```
-
-Once you have µniverse installed, you may want to install [bindings](bindings) for other languages such as Python. If you want to use µniverse from Go, [muniverse-agent](https://github.com/unixpickle/muniverse-agent) might serve as a good starting point. You may also want to checkout the [GoDoc](https://godoc.org/github.com/unixpickle/muniverse) for API details.
-
-# Advantages over Universe
-
-Compared to OpenAI Universe, μniverse will give the following advantages:
-
- * No need to play games in real-time.
-   * No "falling behind" on slower computers
-   * Play games faster than real-time on fast machines.
- * No need for a neural network to read scores from screenshots.
- * Fewer [glitches](https://github.com/openai/universe/issues/187) due to menu automation.
- * No unsafe actions (e.g. pressing the Main Menu button).
- * No Docker containers without accompanying source code
-   * All code to generate containers is included
-   * Open source scripts to download & package games
-
-Most of the above advantages come from focusing on HTML5 games rather than Flash games.
-
-# Contents
-
- * **this directory** - high-level Go API for controlling environments
- * [chrome/](chrome) - Go API for controlling a headless Chrome instance
- * [games/](games) - scripts for downloading & packaging games
- * [container/](container) - build files for the Docker container
- * [codegen/](codegen) - small program to auto-generate Go games registry
- * [util/](util) - small tools which come in handy while using µniverse.
- * [bindings/](bindings) - bindings for other programming languages.
-
-# Roadmap
-
-Here's what is done so far:
-
- * Go API for interfacing with headless Chrome.
- * Mechanism for downloading & packaging games.
- * JavaScript interface for controlling time (timers, Date, etc.)
- * Docker container for running headless Chrome.
- * Go API for controlling Docker containers.
- * Simple interface for gym-like environment control.
- * Python bindings
-
-Here's a (non-exhaustive) to-do list:
-
- * Get more games.
- * Gym integration.
- * Get WebGL to work without occasional failures.
- * Better way to verify connection to keep-alive socket.
- * Rewrite download script in Go:
-   * Faster (jq is slow)
-   * Support absolute paths? (how to specify destination...)
- * Cleaner Windows IP address lookups
-
-# License
-
-This is under a BSD 2-clause license. See [LICENSE](LICENSE).
+> 本仓库由上游项目 fork 而来，原始说明见[上游仓库](https://github.com/unixpickle/muniverse)。
